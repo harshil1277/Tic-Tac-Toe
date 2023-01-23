@@ -1,16 +1,31 @@
 body,html {
+    background-size: cover;
     width: 100%;
     margin: 0;
     text-align: center;
     color: #CBF1F5;
     font-family: 'Indie Flower', cursive;
     background-color: #a4ecec;
+    
 }
 
-.wrapper{
+
+h1{
+    font-size: 100px;
+    color: black;
+
+    text-shadow: 0 0 3px #FF0000, 0 0 5px #15d9e3;
+}
+h3{
+
+    color: rgb(243, 245, 245);
+    text-shadow: 0 0 10px #000000;
+    font-family: 'Poppins', sans-serif;
+}
+.wrappering{
     display: inline-block;
     width: 300px;
-    margin: 100px ;
+    margin: 50px ;
     background-color: #33bccb ;
     padding: 5px;
     border-radius: 5px;
@@ -27,8 +42,32 @@ body,html {
     text-align: center;
     line-height: 90px;
     font-size: 40px;
-    color: #15d9e3;
+    color: #131414;
 }
+.cell.O{
+    background-color: rgb(255, 120, 120);
+
+}
+.cell.O:after{content: 'O';}
+.cell.X{
+    background-color: #3ef9ff;
+}
+.cell:hover{
+    box-shadow: 0 3px 4px 0 #DBEDF3;
+    opacity: 0.8;
+}
+.cell.X:after{content: 'X';}
+.button {
+    background-color: #2d9ecf; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
 
 #info{
     width: 100%;
