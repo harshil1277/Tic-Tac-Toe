@@ -61,14 +61,14 @@ const tictactoe = (function(){
 
         if(winner !== null) {
             playing = false;
-            infoElement.innerHTML = winner + ' WINS<br><button onclick="tictactoe.restart()">RESTART</button>';
+            infoElement.innerHTML = winner + ' WINS <br><button style="color:#131414; border-color: #39B5E0;  border-radius: 4px; background-color: #a4ecec" onclick="tictactoe.restart()">RESTART</button>';
         } else if ( // check draw
             cells[0].value !== null && cells[1].value !== null && cells[2].value !== null && 
             cells[3].value !== null && cells[4].value !== null && cells[5].value !== null && 
             cells[6].value !== null && cells[7].value !== null && cells[8].value !== null
         ) {
             playing = false;
-            infoElement.innerHTML = 'DRAW<br><button onclick="tictactoe.restart()" >RESTART</button>';
+            infoElement.innerHTML = 'DRAW<br><button style="color:#131414; border-color: #39B5E0; border-radius: 10px; background-color: #a4ecec" onclick="tictactoe.restart()" >RESTART</button>';
         }
     }
 
