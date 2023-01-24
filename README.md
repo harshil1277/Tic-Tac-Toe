@@ -31,6 +31,10 @@ As soon as you open the program on Browser , you will see a heading stating "Tic
 
 Below the player specification you will find a 3 X 3 grid of 9 boxes. Player 1 has to click on any one of the 9 boxes to mark an 'O' first. Then player 2 will mark an 'X' at one of remaining 8 boxes by clicking the box. This would continue untill one of the player "wins" or there is a "Draw". 
 
+When a player wins the program displays "X Wins" or "O Wins" below the grid.
+Below the winning player name there is a "Restart" Button. By clicking on that button you can reset the grid. 
+
+After a draw , "Draw" message is displayed below the grid and below "Draw" there is "Restart" button which works same as when there is a "Win".
 
 ## ZERO-SUM GAME
 Tic-Tac-Toe is a zero-sum game, which means that if both players are playing their best, the game will end in a Tie. However, if you learn how to play tic-tac-toe and master some simple strategies, then you'll be able to not only play, but to win the majority of the time.
