@@ -15,7 +15,9 @@ If all 9 squares are filled and neither player has 3 in a row, the game is consi
 Shown below are some of the winning conditions for 'X'.
 
 ![Winning comdition 1](WC1.png)
+
 ![Winning comdition 2](WC2.png)
+
 ![Winning comdition 3](WC3.png)
 
 # Draw Condition 
