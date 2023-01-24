@@ -10,8 +10,6 @@ Players take turns placing their Mark, X or O, on an open square in the grid. Th
 
 If all 9 squares are filled and neither player has 3 in a row, the game is considered a Tie.
 
-The expert artificial intelligence (AI) will play a perfect game. Try your best to Tie it for as long as you can!
-
 ## ZERO-SUM GAME
 Tic-Tac-Toe is a zero-sum game, which means that if both players are playing their best, the game will end in a Tie. However, if you learn how to play tic-tac-toe and master some simple strategies, then you'll be able to not only play, but to win the majority of the time.
 
