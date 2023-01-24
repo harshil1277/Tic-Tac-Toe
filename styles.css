@@ -4,7 +4,7 @@ body,html {
     margin: 0;
     text-align: center;
     color: #CBF1F5;
-    font-family: 'Indie Flower', cursive;
+    font-family: 'Indie Flower', caliber;
     background-color: #a4ecec;
     
 }
@@ -13,7 +13,7 @@ body,html {
 h1{
     font-size: 100px;
     color: black;
-
+    bottom-margin: 0 px;
     text-shadow: 0 0 3px #FF0000, 0 0 5px #15d9e3;
 }
 h3{
