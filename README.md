@@ -13,7 +13,7 @@ If all 9 squares are filled and neither player has 3 in a row, the game is consi
 # Winning Conditions
 
 Shown below are the winning conditions for 'X'.
-![Winning comdition 1](https://github.com/[harshil1277]/[Tic-Tac-Toe]/blob/[main]/WC1.png?raw=true)
+![Winning comdition 1](WC1.png)
 
 ## Game Play 
 As soon as you open the program on Browser , you will see a heading stating "Tic Tac Toe". Below heading there would be specified which player is using which symbol .i.e X or O to play. 
