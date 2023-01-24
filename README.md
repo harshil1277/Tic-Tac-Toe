@@ -21,6 +21,7 @@ Shown below are some of the winning conditions for 'X'.
 # Draw Condition 
 
 Shown below is one of the Draw Condition.
+
 ![Draw Condition](DC.png)
 
 ## Game Play 
